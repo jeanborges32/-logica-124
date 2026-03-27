@@ -1,12 +1,13 @@
 #include<iostream>
-#include<iomanip>
+
 
 int main(){
 
-    double c = 8.8654524545;
+    std::cout<<8+2<<std::endl;
+    std::cout<<10-4<<std::endl;
+    std::cout<<4*3<<std::endl;
+    std::cout<<8/2<<std::endl;
     
-    std::cout<<std::fixed<<std::setprecision(10)<<c<<std::endl;
-
     return 0;
 }
 
