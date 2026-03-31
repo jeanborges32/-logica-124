@@ -2,15 +2,21 @@
 
 int main(){
 
+    int a = 10;
 
-    int a = 8;
+    a += 5;
+    //a = a + 5
 
-    std::cout<<++a<<std::endl;
+    std::cout<<a<<std::endl;
+
 
     return 0;
-
 }
 
-  
+
+
+ 
+
+
 
 
