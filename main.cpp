@@ -2,10 +2,18 @@
 
 int main(){
 
-    int a = 10;
-    int b = 6;
+    
+    char letra = 'E';
 
-    std::cout<<((a > b) && (a +b) >= 16)<<std::endl;
+    
+    std::cout<<letra<<std::endl;
+
+    
+
+
+    
+
+    
 
 
     return 0;
