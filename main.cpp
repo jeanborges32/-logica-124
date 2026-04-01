@@ -1,18 +1,28 @@
 #include<iostream>
+#include<string>
 
 int main(){
 
     
-    auto num1 = 10;
-    auto num2 = 15.80f;
-    auto letra = 'E';
-    auto texto = "Eduardo";
+    std::string nome;
+    int  idade;
+    int anoatual = 2026;
+    
+    std::cout<<"Qual é o seu nome: "<<std::endl;
+    std::cin>>nome;
+    std::cout<<"Qual a sua idade: "<<std::endl;
+    std::cin>>idade;
 
-    std::cout<<num1<<std::endl;
-    std::cout<<num2<<std::endl;
-    std::cout<<letra<<std::endl;
-    std::cout<<texto<<std::endl;
+    std::cout<<(anoatual - idade)<<std::endl;
+    
+    
+    std::cout<<"Seu nome é: "<<nome<<std::endl;
+    std::cout<<"Seu ano de nascimento; "<<(anoatual - idade)<<std::endl;
+    
 
+
+
+    
 
     
     
