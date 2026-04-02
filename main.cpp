@@ -5,14 +5,13 @@ int main(){
 
     int num1, num2, soma;
 
-    std::cout<<"Digite num 1: "<<"\n";
+    std::cout<<"Digite num 1: "<<"<<std::endl;
     std::cin>>num1;
 
-    std::cout<<"Digite num 2: "<<"\n";
-    std::cin>>num2;
+    std::cout<<"\n\no num 1 é  "<<"\n"; 
 
-    soma = num1 + num2;
-    std::cout<<"o resultado da soma é "<<soma<<"\n";
+
+    
 
 
 
