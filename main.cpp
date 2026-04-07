@@ -10,6 +10,8 @@ int main(){
    std::cout<<nome[nome.length() -1]<<std::endl;
    nome[0] = 'A';
    std::cout<<nome<<std::endl;
+   nome.at(0) = 'H';
+   std::cout<<nome;
 
       
 
