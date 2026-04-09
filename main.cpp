@@ -5,11 +5,15 @@
 int main(){
 
     int a = 5;
-    int b = 3;
-    
+    int b = 2;
 
-    std::cout<<std::min(a, b)<<std::endl;
-    std::cout<<std::max(a, b)<<std::endl;
+    if(a > b){
+        std::cout<<"A é maior que B."<<std::endl;
+    }else{
+    std::cout<<"B é maior ou igual a A. "<<std::endl;    
+
+    }    
+    
 
    
       
