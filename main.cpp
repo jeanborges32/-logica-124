@@ -1,36 +1,24 @@
 #include<iostream>
+#include<string>
 
 
 
 int main(){
 
-    int opcaoPagamento;
-    int qtdParafuso;
-    float valorParafuso = 1.00;
-    float valorTotalParafuso;
-    float desconto;
-    float juros;
 
-    std::cout<<"Digite a quantidade de parafusos desejada: "<<std::endl;
-    std::cin>>qtdParafuso;
-    
-    valorTotalParafuso = qtdParafuso * valorParafuso;
+    std:: string nome;
+    float altura;
+    int idade;
 
-    std::cout<<"Qual a forma de pagamento: "<<std::endl;
-    std::cout<<"---1 - Pix"<<std::endl;
-    std::cout<<"---2 - Dinheiro"<<std::endl;
-    std::cout<<"---3 - Cartão"<<std::endl;
-    std::cin>>opcaoPagamento;
+    std::cout<<"Qual é o seu nome ?"<<std::endl;
+    std::cin>>nome;
 
-    if(opcaoPagamento ==1){
-        std::cout<<"Sua compra ficou no valor total de r$: "<<valorTotalParafuso<<std::endl;
-    }else if(opcaoPagamento == 2){
-        desconto = valorTotalParafuso * 0.99;
-        std::cout<<"Sua compra ficou no valor total de r$: "<<desconto<<std::endl;
-    }else{
-        juros = valorTotalParafuso * 1.10;
-        std::cout<<"Sua compra ficou no valor total r$: "<<juros<<std::endl;
-    }
+    std::cout<<"Qual sua altura ?"<<std::endl;
+    std::cin>>altura;
+
+    std::cout<<"Qual a sua idade ?"<<std::endl;
+    std::cin>>idade;
+
 
     
 
