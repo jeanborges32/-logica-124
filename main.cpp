@@ -1,16 +1,15 @@
 #include<iostream>
+#include<string>
 
 int main(){
 
-    int soma = 0;
+    std::string nomes [3] = {"João","Paula","Murilo"};
+    int idades[3] = {27, 31, 20};
 
-    for(int i = 1; i <= 2; i++){
-        std::cout<<"Externo: "<<i<<std::endl;
+    std::cout<<nomes[1]<<" tem "<<idades[1]<<" anos!"<<std::endl;
 
-        for(int j = 1; j <= 3; ++j){
-            std::cout<<"Interno: "<<j<<std::endl;
-        }
-    }
+
+    
 
     
 
