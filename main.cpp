@@ -3,14 +3,10 @@
 
 int main(){
 
-   int contagem = 10;
+    int num;
 
-   while(contagem > 0){
-    std::cout<<contagem<<std::endl;
-    contagem--;
-   }
-     
-   std::cout<<"Feliz ano novo!!"<<std::endl;
+    std::cout<<"Digite um numero entre 0 e 10: "<<std::endl;
+    std::cin>>num;
    
 
     
